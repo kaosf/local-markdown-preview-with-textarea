@@ -1,0 +1,7 @@
+{
+  "name": "local-markdown-preview",
+  "private": true,
+  "dependencies": {
+    "marked": "0.2.9"
+  }
+}
