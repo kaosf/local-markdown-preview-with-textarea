@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
+  <style type="text/css">
+    html, body { height: 99%; margin: 0 }
+    #text-input { width: 50%; max-height: 100%; }
+    #preview { width: 49%; max-height: 100%; float: right; border: solid 1px black; overflow: scroll; }
+  </style>
   <body>
     <textarea id="text-input" oninput="this.editor.update()"
-              rows="6" cols="60">Type **Markdown** here.</textarea>
+              rows="80" cols="80">Type **Markdown** here.</textarea>
     <div id="preview"> </div>
     <script src="bower_components/marked/lib/marked.js"></script>
     <script>
