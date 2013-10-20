@@ -2,6 +2,10 @@
 
 ## Getting Started
 
+Download [this](https://raw.github.com/kaosf/local-markdown-preview/standalone/index.html) and open it with your web browser.
+
+## Development
+
 1. Install Node.js 0.10.x (e.g. `nodebrew install-binary v0.10`)
 2. Install Bower 1.2.7 (`npm install -g bower@1.2.7`)
 3. Install dependent packages with Bower (`bower install`)
