@@ -7,6 +7,17 @@
 3. Install dependent packages with Bower (`bower install`)
 4. Open `index.html` with your web browser.
 
+## How to make Standalone `index.html`
+
+1. Install **Make**
+2. Install [UglifyJS](https://github.com/mishoo/UglifyJS) 2.4.0 (`npm install -g uglify-js@2.4.0`)
+3. Execute `cd bower_components/marked && make && cd ../../`
+4. Copy `bower_components/marked/marked.min.js` and paste it into script tag
+
+### TODO
+
+* Enable to do this operation automatically
+
 ## License
 
 Copyright (c) ka (http://kaosfield.net)
