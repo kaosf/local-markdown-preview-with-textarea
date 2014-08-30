@@ -1,8 +1,8 @@
-# Local Markdown Preview
+# Local Markdown Preview with textarea tag
 
 ## Getting Started
 
-Download [this](https://raw.github.com/kaosf/local-markdown-preview/standalone/index.html) and open it with your web browser.
+Download [this](https://raw.github.com/kaosf/local-markdown-preview-with-textarea/standalone/index.html) and open it with your web browser.
 
 ## Development
 
